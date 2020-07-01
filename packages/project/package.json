@@ -1,0 +1,25 @@
+{
+  "name": "@christiannaths/project",
+  "version": "1.1.0",
+  "main": "index.js",
+  "files": [
+    "packages/eslint-config/index.js",
+    "packages/prettier-config/index.json"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "sh postinstall.sh"
+  },
+  "dependencies": {
+    "@christiannaths/eslint-config": ">=1",
+    "@christiannaths/prettier-config": ">=1",
+    "eslint": ">=7",
+    "eslint-plugin-import": ">=2.22",
+    "eslint-plugin-node": ">=11.1",
+    "eslint-plugin-prettier": ">=3.1",
+    "eslint-plugin-react": ">=7.20",
+    "husky": ">=4.2",
+    "lint-staged": ">=10.2",
+    "prettier": ">=2.0"
+  }
+}

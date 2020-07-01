@@ -5,5 +5,12 @@
   "main": "index.json",
   "repository": "git@github.com:christiannaths/eslint-config.git",
   "author": "Christian Naths <christiannaths@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7",
+    "eslint-plugin-import": ">=2.22",
+    "eslint-plugin-node": ">=11.1",
+    "eslint-plugin-prettier": ">=3.1",
+    "eslint-plugin-react": ">=7.20"
+  }
 }

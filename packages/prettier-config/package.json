@@ -5,5 +5,8 @@
   "main": "index.json",
   "repository": "git@github.com:christiannaths/prettier-config.git",
   "author": "Christian Naths <christiannaths@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=2.0"
+  }
 }
