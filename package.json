@@ -1,12 +1,13 @@
 {
   "name": "@christiannaths/project",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "files": [
     "eslint-config.js",
     "prettier-config.js"
   ],
   "license": "MIT",
+  "private": true,
   "scripts": {
     "postinstall": "sh postinstall.sh"
   },
