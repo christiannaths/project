@@ -1,7 +1,7 @@
 module.exports = {
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2020,
+    ecmaVersion: 2020
   },
 
   plugins: ["import", "node", "react", "prettier"],
@@ -13,8 +13,8 @@ module.exports = {
       "error",
       {
         "newlines-between": "never",
-        groups: [],
-      },
-    ],
-  },
+        groups: []
+      }
+    ]
+  }
 };
